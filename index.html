@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Gradient #task-2</title>
+    </head>
+    <style>
+        body {
+            background: black;
+        }
+        .c {
+            width: 380px;
+            height: 380px;
+            border: 5px solid rgb(56, 74, 56);
+            border-radius: 80px;
+            transform: rotate(45deg);
+            display: inline-block;
+        }
+        .s {
+            margin: 60px 50px;
+            background-image: linear-gradient(
+                to bottom,
+                rgb(110, 104, 104),
+                rgb(119, 94, 47),
+                rgb(64, 99, 64)
+            );
+        }
+
+        .a {
+            margin: 50px 60px;
+            background-image: linear-gradient(
+                to bottom,
+                rgb(53, 53, 111),
+                rgb(43, 85, 101),
+                rgb(13, 63, 13),
+                rgb(132, 132, 33)
+            );
+        }
+        .b {
+            margin: 50px;
+            background-image: linear-gradient(
+                to bottom,
+                red,
+                orange,
+                yellow,
+                lime,
+                green,
+                skyblue,
+                blue
+            );
+        }
+        .o {
+            width: 400px;
+            height: 400px;
+            border: 5px solid rgb(16, 46, 16);
+            border-radius: 50px;
+            display: inline-block;
+            margin: 20px;
+            background-image: linear-gradient(
+                to right top,
+                white,
+                black,
+                white,
+                black,
+                white,
+                black,
+                white,
+                black,
+                white,
+                black,
+                white,
+                black
+            );
+        }
+        .k {
+            display: inline-block;
+            margin: 20px;
+            background-image: repeating-linear-gradient(
+                to bottom left,
+                blue,
+                rgb(172, 38, 132),
+                blue,
+                rgb(172, 38, 132),
+                blue,
+                rgb(172, 38, 132),
+                blue,
+                rgb(172, 38, 132),
+                blue,
+                rgb(172, 38, 132),
+                blue
+            );
+        }
+        .l {
+            display: inline-block;
+            margin: 20px;
+            background-image: linear-gradient(
+                to bottom,
+                rgb(115, 6, 6),
+                red,
+                yellow,
+                green,
+                hotpink,
+                crimson,
+                lime,
+                blue,
+                skyblue,
+                purple,
+                violet
+            );
+        }
+    </style>
+    <body>
+        <div class="s c"></div>
+        <div class="a c"></div>
+        <div class="b c"></div>
+
+        <div class="o"></div>
+        <div class="o k"></div>
+        <div class="o k l"></div>
+    </body>
+</html>
